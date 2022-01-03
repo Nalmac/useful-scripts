@@ -5,6 +5,7 @@
 		"file2.py"
 	},
 	"lang": "py",
+	"cronable": "True",
 	"cron": {
 		"m": "15",
 		"h": "5",
