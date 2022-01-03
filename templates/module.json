@@ -1,0 +1,17 @@
+{
+	"name": "template",
+	"dependencies": {
+		"file1.py",
+		"file2.py"
+	},
+	"lang": "py",
+	"cron": {
+		"m": "15",
+		"h": "5",
+		"dom": "*",
+		"mon": "*",
+		"dow": "*",
+		"command": "python3 -c 'print(69)'"
+	},
+	
+}
