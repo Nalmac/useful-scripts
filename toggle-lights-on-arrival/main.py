@@ -13,7 +13,7 @@ def main():
 
     while True:
         resp = os.system("ping -c 1 " + host)
-        if resp == 0 and isNight() and not isAleradyHere:
+        if resp == 0 and isNight() and not isAlreadyHere:
             isAlreadyHere = True
             lightbulb.turn_on()
         else:
