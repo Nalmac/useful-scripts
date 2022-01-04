@@ -4,7 +4,7 @@ from time import sleep
 from day_or_night import isNight
 
 def main():
-    host = "192.168.0.174"
+    host = "192.168.0.184"
     lightbulb = yeelight.Bulb("192.168.0.136")
 
     while True:
